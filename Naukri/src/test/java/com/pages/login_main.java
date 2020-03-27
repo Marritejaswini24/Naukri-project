@@ -81,7 +81,7 @@ import com.excel.excel_utility;
 		public void login() throws IOException, InterruptedException
 		{
 			
-			for(int i=1;i<=1;i++)
+			for(int i=1;i<=10;i++)
 			{
 				
 			driver.findElement(By.xpath("//*[@id=\"login_Layer\"]/div")).click();
